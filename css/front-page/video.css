@@ -1,0 +1,61 @@
+.tf-video {
+    padding: 100px 0;
+    background: #F5F5F5;
+    overflow: hidden;
+}
+.tf-video__wrapper {
+    position: relative;
+}
+.tf-video__video {
+    position: absolute;
+    left: 140px;
+    margin-right: 100px;
+    
+}
+.tf-video__video video {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+.tf-video__content {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin-right: 600px;
+    
+}
+.tf-video__text {
+    float: right;
+    margin-left: 650px;
+    width: 700px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.tf-video__text h2 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.tf-video__text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.tf-video span{
+    display: block;
+    height: 1022px;
+    width: 1018px;
+    border-radius: 100%;
+    background-color: rgba(245, 153, 7, 0.27);
+    position: absolute;
+    z-index: 1;
+    top: -630px;
+    left: 1460px;
+}
