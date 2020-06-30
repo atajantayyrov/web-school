@@ -5,19 +5,23 @@
     height: 700px;
 }
 .tf-container{
-    
 }
 
 .tf-video-about-us__wrapper {
+    display: flex;
     position: relative;
 }
 .tf-video-about-us__video {
     position: absolute;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 .tf-video-about-us__video video {
     width: 800px;
     height: 500px;
     border-radius: 10px;
+    object-fit: cover;
+    outline: none;
 }
 .tf-video-about-us__content {
     top: 0;
@@ -27,8 +31,6 @@
     display: flex;
     text-align: left;
     justify-content: center;
-    
-    
 }
 .tf-video-about-us__text {
     margin-left: 900px;
