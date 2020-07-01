@@ -1,6 +1,7 @@
 .tf-masthead {
   height: 600px;
   background-color: #6200ea;
+  overflow: hidden;
 }
 .tf-masthead__wrapper {
   display: flex;
